@@ -84,6 +84,7 @@ p {
 .header-section {
     padding: 25px 0;
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .nav-section {
@@ -157,7 +158,10 @@ p {
 
 .hero-section {
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(25, 28, 38, 0.7), rgba(25, 28, 38, 0.7)), url(../images/bg-hero.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bg-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
@@ -217,7 +221,6 @@ p {
 .possibilities-list {
     display: flex;
     flex-basis: calc((100% - 3 * 24px) / 4);
-    /* justify-content: space-between; */
     gap: 24px;
 }
 
@@ -229,6 +232,7 @@ p {
     height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .possibilities-item {
@@ -315,7 +319,8 @@ p {
 }
 
 .card-box {
-    padding: 32px 16px;
+    padding: 32px 0;
+    justify-content: center;
 }
 
 .team-list {
@@ -341,6 +346,13 @@ p {
     display: flex;
     gap: 24px;
     margin: 0 auto;
+    justify-content: center;
+
+}
+
+.team-social-list a {
+    display: flex;
+    justify-content: center;
 }
 
 /* ======== CUSTOMERS ======= */
@@ -348,12 +360,12 @@ p {
     padding: 120px 0;
 }
 
-.customers-section h2 {
+.customers-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -365,6 +377,7 @@ p {
     display: flex;
     box-sizing: border-box;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 
@@ -372,7 +385,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
+    width: calc((100% - 120px) / 6);
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -381,6 +394,20 @@ p {
 .customers-logo {
 
     fill: #998e92;
+    border-radius: 50%;
+    width: 100%;
+    /* height: 100%; */
+    /* background-color: #4D5AE5; */
+    /* fill: red; */
+}
+
+.customers-logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
 }
 
 /* ========= FOOTER ========= */
