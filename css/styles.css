@@ -329,7 +329,7 @@ p {
     text-align: center;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .list-description {
@@ -369,6 +369,10 @@ p {
     justify-content: center;
 }
 
+.team-social-items {
+    justify-content: center;
+}
+
 /* ======== CUSTOMERS ======= */
 .customers-section {
     padding: 120px 0;
@@ -383,7 +387,7 @@ p {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    /* color: #2E2F42; */
+    color: #2E2F42;
     margin-bottom: 72px;
 }
 
@@ -414,7 +418,6 @@ p {
     fill: currentColor;
 }
 
-
 .customers-logo-link {
     display: flex;
     justify-content: center;
@@ -423,8 +426,7 @@ p {
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-
-
+    color: #8e8f99;
 }
 
 .customers-logo-link:hover,
@@ -515,7 +517,7 @@ p {
 
 .section-portfolio {
     padding: 96px 0 120px;
-    marin: 0 auto;
+    margin: 0 auto;
 }
 
 
