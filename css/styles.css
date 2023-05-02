@@ -358,6 +358,7 @@ p {
 .team-social-icons {
     border-radius: 50%;
     width: 100%;
+    height: 100%;
     fill: #f4f4fd;
 
 }
@@ -378,7 +379,7 @@ p {
     display: flex;
     justify-content: center;
     width: 40px;
-    height: 40px;
+    height: 40px
 }
 
 /* ======== CUSTOMERS ======= */
