@@ -14,7 +14,6 @@ body {
 
 .list {
     list-style: none;
-
 }
 
 .link {
@@ -67,7 +66,6 @@ p {
 
 /* ========== RESET ========== */
 
-
 .flex-block {
     display: flex;
 }
@@ -92,7 +90,6 @@ p {
     align-items: center;
 }
 
-
 .logo-header {
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
@@ -101,7 +98,6 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #4D5AE5;
 }
 
@@ -109,7 +105,6 @@ p {
     display: flex;
     gap: 40px;
 }
-
 
 .link-header {
     font-weight: 500;
@@ -128,7 +123,6 @@ p {
 .address-list {
     display: flex;
     gap: 40px;
-
 }
 
 .address {
@@ -144,15 +138,12 @@ p {
 .address-item {
     color: #434455;
     padding: 24px 0;
-
 }
 
 .address-item:hover,
 .address-item:focus {
     color: #404bbf;
 }
-
-/* ========= HEADER ========= */
 
 /* ========== HERO ========== */
 
@@ -165,7 +156,6 @@ p {
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .hero-block {
@@ -185,7 +175,6 @@ p {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin: 0 auto 48px;
-
 }
 
 .modal-button {
@@ -238,7 +227,6 @@ p {
 
 .possibilities-item {
     width: 264px;
-
 }
 
 .possibilities-item h3 {
@@ -253,8 +241,6 @@ p {
     color: #2E2F42;
     margin-bottom: 8px;
 }
-
-
 
 .section-description {
     line-height: 1.5;
@@ -309,8 +295,6 @@ p {
 .team-box {
     width: 1158px;
     margin: 0 auto;
-
-
 }
 
 .team-cards {
@@ -348,7 +332,6 @@ p {
     align-items: center;
     width: 100%;
     height: 100%;
-
 }
 
 .team-social:hover,
@@ -361,7 +344,6 @@ p {
     width: 100%;
     height: 100%;
     fill: #f4f4fd;
-
 }
 
 .team-social-list {
@@ -369,7 +351,6 @@ p {
     justify-content: center;
     gap: 24px;
     margin: 0 auto;
-
 }
 
 .team-social-items {
@@ -411,14 +392,11 @@ p {
     align-items: center;
     width: calc((100% - 120px) / 6);
     height: 88px;
-    border: 1px solid #8E8F99;
     border-radius: 4px;
 
 }
 
-
 .customers-logo {
-
     fill: #998e92;
     border-radius: 50%;
     fill: currentColor;
